@@ -1,0 +1,44 @@
+@import url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
+ui{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./images/beach.jpg');
+} 
+
+ul li{
+    float: left;
+    list-style: none;
+    
+}
+
+ul li a{
+  display: block;
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 5px;
+  transition: 0.7s;
+  border-radius: 20px;
+}
+
+ul li a:hover{
+    background-color: transparent;
+    color: black;
+}
+
+ iframe{
+    border-radius: 15px; 
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: iosevka-bold;
+    src: url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
+}
