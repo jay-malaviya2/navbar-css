@@ -17,7 +17,7 @@ ul li{
 ul li a{
     display: block;
     height: 30px;
-    width: 100px;
+    width: 100px; 
     background-color: transparent;
     color: white;
     text-align: center;
@@ -39,7 +39,6 @@ ul li a:hover{
     background-color: white;
     margin: 6px;
     margin-left: 10px;
-     transition: 0.7s;
 }
 .menu:hover .demo{
     background-color: black;
