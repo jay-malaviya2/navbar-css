@@ -34,16 +34,16 @@ ul li a:hover {
     color: black;
 }
 
-div {
+.demo {
     width: 35px;
     height: 3px;
     background-color: white;
     margin: 6px;
     margin-left: 10px;
+     transition: 0.7s;
 }
-
-div:hover {
-    background-color: transparent;
+.menu:hover .demo {
+    background-color: black;
     color: black;
 }
 
