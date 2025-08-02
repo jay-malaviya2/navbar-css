@@ -33,11 +33,6 @@ ul li a:hover{
     color: black;
 }
 
- iframe{
-    border-radius: 15px; 
-    margin-top: 50px;
-}
-
 @font-face {
     font-family: iosevka-bold;
     src: url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
