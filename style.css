@@ -1,21 +1,20 @@
 @import url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
 
-ui {
+ui{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     background-image: url('./images/beach.jpg');
 }
 
-ul li {
+ul li{
     float: left;
     list-style: none;
-
 }
 
-ul li a {
+ul li a{
     display: block;
     height: 30px;
     width: 100px;
@@ -29,12 +28,12 @@ ul li a {
     border-radius: 20px;
 }
 
-ul li a:hover {
+ul li a:hover{
     background-color: transparent;
     color: black;
 }
 
-.demo {
+.demo{
     width: 35px;
     height: 3px;
     background-color: white;
@@ -42,12 +41,12 @@ ul li a:hover {
     margin-left: 10px;
      transition: 0.7s;
 }
-.menu:hover .demo {
+.menu:hover .demo{
     background-color: black;
     color: black;
 }
 
-@font-face {
+@font-face{
     font-family: iosevka-bold;
     src: url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
 }
