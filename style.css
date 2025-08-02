@@ -39,6 +39,7 @@ ul li a:hover{
     background-color: white;
     margin: 6px;
     margin-left: 10px;
+    transition: 0.7s;
 }
 .menu:hover .demo{
     background-color: black;
