@@ -1,34 +1,48 @@
 @import url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
-ui{
+
+ui {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-image: url('./images/beach.jpg');
-} 
+}
 
-ul li{
+ul li {
     float: left;
     list-style: none;
-    
+
 }
 
-ul li a{
-  display: block;
-  height: 30px;
-  width: 100px;
-  background-color: transparent;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  text-decoration: none;
-  margin: 5px;
-  transition: 0.7s;
-  border-radius: 20px;
+ul li a {
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.7s;
+    border-radius: 20px;
 }
 
-ul li a:hover{
+ul li a:hover {
+    background-color: transparent;
+    color: black;
+}
+
+div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px;
+    margin-left: 10px;
+}
+
+div:hover {
     background-color: transparent;
     color: black;
 }
